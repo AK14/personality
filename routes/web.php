@@ -32,6 +32,10 @@ Route::middleware('auth')->group(function(){
     });
 });
 
+Route::get('pub',function (){
+    return view('landing.index');
+});
+
 //Route::resource('products', \App\Http\Controllers\ProductController::class)->middleware('auth');
 
 Auth::routes();

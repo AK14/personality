@@ -5,6 +5,11 @@
  */
 
 import './bootstrap';
+import 'icofont';
+import 'boxicons';
+import 'venobox';
+import 'owl.carousel';
+import 'aos';
 import { createApp } from 'vue';
 
 /**
