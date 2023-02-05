@@ -1,0 +1,35 @@
+.antialiased{
+    color:rebeccapurple;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px
+}
+.item{
+    background-color: lightgreen;
+    container-type: inline-size;
+    font-size: 4cqw;
+}
+
+ul{
+    list-style: none;
+    padding-left: unset;
+    font-size: 15cqi;
+}
+li{
+    background-color: #0a53be;
+    margin-bottom: 1rem;
+}
+
+li:nth-child(1){
+    width: 35cqw;
+}
+li:nth-child(2){
+    width: 50cqw;
+}
+
+li:nth-child(3){
+    width: 70cqw;
+}
