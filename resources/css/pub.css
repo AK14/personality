@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import "bootstrap";
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #555555;
@@ -341,7 +343,6 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     text-align: center;
     padding: 0 15px;
-    background-color: black;
 }
 
 #hero .hero-logo {

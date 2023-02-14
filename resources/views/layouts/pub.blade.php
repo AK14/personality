@@ -9,31 +9,6 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     @vite(['resources/css/pub.css', 'resources/js/app.js'])
-
-    <!-- Favicons -->
-<!--    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
-
-    <!-- Google Fonts -->
-{{--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">--}}
-
-    <!-- Vendor CSS Files -->
-<!--    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">-->
-
-    <!-- Template Main CSS File -->
-<!--    <link href="assets/css/style.css" rel="stylesheet">-->
-
-    <!-- =======================================================
-    * Template Name: Knight - v2.2.1
-    * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
 <body>
@@ -42,7 +17,7 @@
 <section id="hero">
     <div class="hero-container">
         <a href="/" class="hero-logo" data-aos="zoom-in">
-            <img src="{{URL::asset('/img/hero-logo.png')}}" alt="">
+            <img src="{{URL::asset('/img/minina/logo1.png')}}" alt="">
         </a>
         <h1 data-aos="zoom-in"> ПСИХОЛОГ ГЕШТАЛЬТ-ТЕРАПЕВТ </h1>
         <h2 data-aos="fade-up">Юлия Минина - практикующий психолог, сертифицированный и аккредитованный гештальт-терапевт, супервизор, ведущая групп, арт-терапевт, действительный член РОО "Общество психологов и психотерапевтов Гештальт- подход", I квалификационная категория.</h2>
@@ -56,36 +31,17 @@
 
         <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
         <div class="logo d-block d-lg-none">
-            <a href="/pub/"><img src="{{URL::asset('/img/logo.png')}}" alt="" class="img-fluid"></a>
+            <a href="/pub/">
+                <img src="{{URL::asset('/img/minina/logo1.png')}}" alt="" class="img-fluid">
+            </a>
         </div>
 
         <nav class="nav-menu d-none d-lg-block">
             <ul class="nav-inner">
-                <li class="active"><a href="/pub">Home</a></li>
-                <li class="drop-down"><a href="">About</a>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#team">Team</a></li>
-
-                        <li class="drop-down"><a href="#">Deep Drop</a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#services">Services</a></li>
-
-                <li class="nav-logo"><a href="#"><img src="{{URL::asset('/img/logo.png')}}" alt="" class="img-fluid"></a></li>
-
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
-
+                <li class="active"><a href="/pub">Главная</a></li>
+                <li><a href="#services">Формы работы</a></li>
+                <li><a href="#about">Обо мне</a> </li>
+                <li><a href="#portfolio">Контакты</a></li>
             </ul>
         </nav><!-- .nav-menu -->
 
@@ -105,7 +61,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <a href="#header" class="scrollto footer-logo"><img src="{{URL::asset('/img/hero-logo.png')}}" alt=""></a>
+                    <a href="#header" class="scrollto footer-logo"><img src="{{URL::asset('/img/minina/logo1.png')}}" alt=""></a>
                     <h3>Минина</h3>
                     <p>ПСИХОЛОГ ГЕШТАЛЬТ-ТЕРАПЕВТ</p>
                 </div>
